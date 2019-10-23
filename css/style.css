@@ -1039,8 +1039,7 @@ h4,.h4 {
     margin-bottom: 0
     }
 
-/*Styling for Theme Page */
-
+/*Styling for Images on Theme Page */
 .img_left {
   display: block;
   margin-left: auto;
@@ -1059,7 +1058,6 @@ h4,.h4 {
   margin-right: auto;
   margin-bottom: 20px;
 }
-
 
 .clockdiv {
     margin-bottom: 35px
