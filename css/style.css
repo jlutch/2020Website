@@ -1039,9 +1039,23 @@ h4,.h4 {
     margin-bottom: 0
     }
 
+/*Styling for Theme Page */
+
+.img_left {
+  display: block;
+  margin-left: auto;
+  margin-bottom: 20px;
+}
+
 .img_center {
   display: block;
   margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.img_right {
+  display: block;
   margin-right: auto;
   margin-bottom: 20px;
 }
