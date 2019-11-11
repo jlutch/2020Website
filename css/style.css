@@ -944,6 +944,18 @@ h4,.h4 {
     display: inline-block
     }
 
+.home-logo
+{
+  max-width: 80%;
+  height: auto;
+}
+
+.home-video
+{
+  max-width: 80%;
+  height: auto;
+}
+
 @media (min-width: 768px) {
     .hero-banner-icon {
     margin-bottom: 10px
