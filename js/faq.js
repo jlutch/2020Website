@@ -93,5 +93,6 @@
 		for(var i = 0; i < faqTemplate.length; i++) {
 			faqArray.push(new FaqTemplate(faqTemplate[i]));
 		}
+
   };
 })();
