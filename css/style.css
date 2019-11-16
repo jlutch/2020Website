@@ -943,19 +943,18 @@ h4,.h4 {
     color: #fff;
     display: inline-block
     }
-/* need to fix */
+
 .home-logo
 {
-  max-width: 80%;
-  height: auto;
+  max-width: 100%;
 }
 
-/*
+
 .home-video
 {
-  height: auto;
+  max-width: 100%
 }
-*/
+
 
 @media (min-width: 768px) {
     .hero-banner-icon {
