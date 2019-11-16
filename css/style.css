@@ -943,18 +943,19 @@ h4,.h4 {
     color: #fff;
     display: inline-block
     }
-
+/* need to fix */
 .home-logo
 {
   max-width: 80%;
   height: auto;
 }
 
+/*
 .home-video
 {
-  max-width: 80%;
   height: auto;
 }
+*/
 
 @media (min-width: 768px) {
     .hero-banner-icon {
@@ -1052,7 +1053,7 @@ h4,.h4 {
     }
 
 /*Styling for Theme Page */
-
+/*need to fix */
 .img_center {
   display: block;
   margin-left: auto;
