@@ -947,12 +947,14 @@ h4,.h4 {
 .home-logo
 {
   max-width: 100%;
+  max-height: 220px;
+  height: auto;
 }
 
 
 .home-video
 {
-  max-width: 100%
+  max-width: 100%;
 }
 
 
@@ -969,10 +971,9 @@ h4,.h4 {
     }
 
 @media (min-width: 768px) {
-    .hero-banner-icon i,.hero-banner-icon span {
-    font-size: 60px
+    .hero-banner-icon i,.hero-banner-icon span{
+      font-size: 60px
     }
-
 
     }
 
