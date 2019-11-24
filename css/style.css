@@ -1266,6 +1266,157 @@ h4,.h4 {
     background: rgba(234,7,99,0.6)
     }
 
+@media only screen and (max-width: 400px){
+    .card-speaker-founders {
+      border: 10px solid #fff;
+      position: relative;
+      overflow: hidden;
+      width: 90%;
+      height: 90%;
+    }
+    .card-speaker-founders .speaker-footer {
+      position: relative;
+      bottom: 20px;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      background: rgba(59,29,130,0.9);
+      padding: 20% 5px;
+      z-index: 2;
+      transition: all .7s ease;
+    }
+    .card-speaker-founders .speaker-footer h4 {
+      margin-bottom: 0;
+      color: #fff;
+      font-size: 20px;
+      margin-bottom: 3px;
+    }
+    .card-speaker-founders .speaker-footer p {
+        margin-bottom: 0;
+        color: #fff;
+        font-size: 14px;
+    }
+    .card-speaker-founders:hover .speaker-footer {
+        background: rgba(234,7,99,0.6);
+    }
+}
+@media only screen and (min-width: 401px) and (max-width: 960px){
+  .card-speaker-founders {
+      border: 10px solid #fff;
+      position: relative;
+      overflow: hidden;
+      width: 90%;
+      height: 90%
+      }
+
+  .card-speaker-founders .speaker-footer {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      background: rgba(59,29,130,0.9);
+      padding: 22px 5px;
+      z-index: 2;
+      transition: all .7s ease
+      }
+
+  .card-speaker-founders .speaker-footer h4 {
+      margin-bottom: 0;
+      color: #fff;
+      font-size: 20px;
+      margin-bottom: 3px
+      }
+
+  .card-speaker-founders .speaker-footer p {
+      margin-bottom: 0;
+      color: #fff;
+      font-size: 14px
+      }
+
+  .card-speaker-founders .speaker-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(59,29,130,0.8);
+      z-index: 1;
+      transform: translateY(-60px);
+      opacity: 0;
+      z-index: -1;
+      transition: all .6s ease
+      }
+
+  .card-speaker-founders:hover .speaker-overlay {
+      opacity: 1;
+      z-index: 1;
+      transform: translateY(0)
+      }
+
+  .card-speaker-founders:hover .speaker-footer {
+      background: rgba(234,7,99,0.6)
+    }
+}
+@media only screen and (min-width: 961px){
+  .card-speaker-founders {
+      border: 10px solid #fff;
+      position: relative;
+      overflow: hidden;
+      width: 90%;
+      height: 90%
+      }
+
+  .card-speaker-founders .speaker-footer {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      background: rgba(59,29,130,0.9);
+      padding: 22px 5px;
+      z-index: 2;
+      transition: all .7s ease
+      }
+
+  .card-speaker-founders .speaker-footer h4 {
+      margin-bottom: 0;
+      color: #fff;
+      font-size: 20px;
+      margin-bottom: 3px
+      }
+
+  .card-speaker-founders .speaker-footer p {
+      margin-bottom: 0;
+      color: #fff;
+      font-size: 14px
+      }
+
+  .card-speaker-founders .speaker-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(59,29,130,0.8);
+      z-index: 1;
+      transform: translateY(-60px);
+      opacity: 0;
+      z-index: -1;
+      transition: all .6s ease
+      }
+
+  .card-speaker-founders:hover .speaker-overlay {
+      opacity: 1;
+      z-index: 1;
+      transform: translateY(0)
+      }
+
+  .card-speaker-founders:hover .speaker-footer {
+      background: rgba(234,7,99,0.6)
+      }
+
+}
 .speaker-social {
     position: absolute;
     width: 100%;
