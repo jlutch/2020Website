@@ -1901,7 +1901,7 @@ h4,.h4 {
     }
 
 
-    @media screen and (max-width: 32em) {
+    @media screen and (max-width: 400px) {
         .bronze-sponsor {
             max-width: 25%;
         }
@@ -1916,7 +1916,7 @@ h4,.h4 {
         }
     }
 
-    @media screen and (min-width:32em) {
+    @media screen and (min-width: 401px) and (max-width: 960px){
         .bronze-sponsor {
             max-width: 10em;
         }
