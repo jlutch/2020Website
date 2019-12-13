@@ -1918,16 +1918,16 @@ h4,.h4 {
 
     @media screen and (min-width:32em) {
         .bronze-sponsor {
-            max-width: 10em;
+            max-width: 25%;
         }
         .silver-sponsor {
-            max-width: 13em;
+            max-width: 30%;
         }
         .gold-sponsor {
-            max-width: 15em;
+            max-width: 35%;
         }
         .platinum-sponsor {
-            max-width: 20em;
+            max-width: 45%;
         }
     }
 
