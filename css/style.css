@@ -1900,6 +1900,72 @@ h4,.h4 {
     height: 120px
     }
 
+
+    @media screen and (max-width: 32em) {
+        .bronze-sponsor {
+            max-width: 25%;
+        }
+        .silver-sponsor {
+            max-width: 30%;
+        }
+        .gold-sponsor {
+            max-width: 35%;
+        }
+        .platinum-sponsor {
+            max-width: 45%;
+        }
+    }
+
+    @media screen and (min-width:32em) {
+        .bronze-sponsor {
+            max-width: 10em;
+        }
+        .silver-sponsor {
+            max-width: 13em;
+        }
+        .gold-sponsor {
+            max-width: 15em;
+        }
+        .platinum-sponsor {
+            max-width: 20em;
+        }
+    }
+
+
+    .bronze-sponsor {
+        max-height: 2.5em;
+        margin-left: 1.75em;
+        margin-right: 1.75em;
+        vertical-align: middle;
+        margin-bottom: 2em;
+    }
+
+    .silver-sponsor {
+        max-height: 3em;
+        margin-left: 1.75em;
+        margin-right: 1.75em;
+        vertical-align: middle;
+        margin-bottom: 2em;
+
+    }
+
+    .gold-sponsor {
+        max-height: 3em;
+        margin-left: 1.75em;
+        margin-right: 1.75em;
+        vertical-align: middle;
+        margin-bottom: 2em;
+
+    }
+
+    .platinum-sponsor {
+        max-height: 8em;
+        margin-left: 1.75em;
+        margin-right: 1.75em;
+        vertical-align: middle;
+        margin-bottom: 2em;
+        width: auto;
+
 .gallery-bg {
     background: url(../img/home/gallery-bg.png) left center no-repeat;
     background-size: cover
