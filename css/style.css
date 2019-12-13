@@ -1901,7 +1901,7 @@ h4,.h4 {
     }
 
 
-    @media screen and (max-width: 32em) {
+    @media screen and (max-width: 400px) {
         .bronze-sponsor {
             max-width: 25%;
         }
@@ -1916,8 +1916,9 @@ h4,.h4 {
         }
     }
 
-    @media screen and (min-width:32em) {
+    @media screen and (min-width: 401px) and (max-width: 960px){
         .bronze-sponsor {
+<<<<<<< HEAD
             max-width: 25%;
         }
         .silver-sponsor {
@@ -1928,6 +1929,18 @@ h4,.h4 {
         }
         .platinum-sponsor {
             max-width: 45%;
+=======
+            max-width: 5em;
+        }
+        .silver-sponsor {
+            max-width: 7em;
+        }
+        .gold-sponsor {
+            max-width: 7em;
+        }
+        .platinum-sponsor {
+            max-width: 10em;
+>>>>>>> ae4327ee2d0f47648d90316a017d80f74ddf369d
         }
     }
 
